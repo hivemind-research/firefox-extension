@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'AvenirBold';
+    src: url('chrome://hivemind/content/fonts/avenir-black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirRegular';
+    src: url('chrome://hivemind/content/fonts/avenir-book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirItalic';
+    src: url('chrome://hivemind/content/fonts/avenir-bookoblique.woff') format('woff');
+}
+
+
+body {
+    font: 400 14px/20px "AvenirRegular", Arial, sans-serif;
+    margin: 0;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+   font-family: "AvenirBold", Arial, sans-serif;
+}
+
+h2 {
+    color: #6d6e71;
+    font-family: "AvenirItalic",Arial,sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+h3 {
+    color: #a9abae;
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+}
+
+a {
+    color: #2f4aa0;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 0.5em 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0.2em 0;
+}
+
+.header {
+    border-bottom: 1px solid #dcddde;
+}
+
+.hivemind-logo {
+    background: url('chrome://hivemind/content/images/hivemind_logo.svg') top left no-repeat;
+    display: block;
+    height: 41px;
+    margin: 0.25em auto;
+    text-indent: -99999px;
+    width: 134px;
+}
+
+.main {
+    padding: 0.5em;
+}
+
+.status {
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.summary a {
+    color: #6d6e71;
+}
+
+.results {
+    padding: 0 1em;
+}
+
+.results img {
+    padding: 0.1em;
+}
+
+.flag,
+.favicon {
+    vertical-align: middle;
+}

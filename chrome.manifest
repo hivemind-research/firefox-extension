@@ -1,0 +1,7 @@
+content     hivemind              content/ contentaccessible=yes
+
+overlay     chrome://browser/content/browser.xul  chrome://hivemind/content/xul/browserOverlay.xul
+
+resource	hivemind	            resource/
+
+skin        hivemind  skin        skin/

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="/skin/button.css" type="text/css"?>
+
+<?xul-overlay href="chrome://hivemind/content/xul/popupWindow.xul"?>
+
+<overlay id="hivemind-overlay"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script src="/content/js/browser_util.js"/>
+    <script src="/content/js/settings.js"/>
+
+    <script src="/content/js/background.js"/>
+
+
+    <toolbarpalette id="nav-bar-customization-target">
+        <toolbarbutton
+                id="hivemindButton"
+                class="toolbarbutton-1"
+                label="Hivemind"
+                tooltiptext="Hivemind"
+                />
+    </toolbarpalette>
+
+    <window id="main-window">
+
+    </window>
+
+
+</overlay>

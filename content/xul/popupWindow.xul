@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet href="/skin/balloon.css" type="text/css"?>
+
+<overlay
+	id="hivemind-window-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+
+    <script src="/content/js/popupWindow.js" />
+	
+	<window id="main-window">
+		<panel id="hivemindPanel" class='hivemindPanel_box'>
+			<vbox>
+                <html:iframe id="popup_ifr" src="chrome://hivemind/content/html/popup.html"/>
+			</vbox>
+		</panel>
+	</window>
+	
+</overlay>

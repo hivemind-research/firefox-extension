@@ -1,0 +1,19 @@
+.hivemindPanel_box {
+	border: 1px solid lightgray;
+	padding: 0;
+	margin:0;
+	width:250px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+	border-image-width:0px;
+	border-radius: 3px;
+}
+
+.hivemindPanel_box iframe {
+    border: none;
+    width: 250px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
